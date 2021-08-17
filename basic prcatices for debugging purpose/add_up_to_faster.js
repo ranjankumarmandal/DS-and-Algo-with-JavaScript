@@ -1,3 +1,5 @@
+// Time complexity - good approach, less time complexity
+
 function addUpTo(n) {
   return n * (n + 1) / 2;
 }
