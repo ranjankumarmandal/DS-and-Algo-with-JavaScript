@@ -6,7 +6,7 @@ Problem solving approach -
 1. Understand the problem
 2. Explore concrete examples
 3. Break it down
-4. solve / simplity
+4. solve / simplify
 5. Look Back & Refactor
 
 */
