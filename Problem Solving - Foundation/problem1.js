@@ -55,7 +55,7 @@ function charCount(str) {
     for(let char of str) {
         if(/[a-z0-9]/.test(char)) {
             char = char.toLowerCase();
-            result[char] = ++result[char] || 1;  // OR operator in JS finds the first truthy value and And operator finds first falsy value
+            result[char] = ++result[char] || 1;  // OR operator in JS finds the first truthy value and And operator finds the first falsy value
         }
     }
 
