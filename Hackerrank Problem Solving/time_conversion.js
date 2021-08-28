@@ -1,4 +1,9 @@
-//
+// Problem Solving Approach
+// 1. Understand the problem
+// 2. Explore the concrete examples
+// 3. Break it down
+// 4. Solve / Simplify
+// 5. Look Back & Refactor
 
 /*
 timeConversion("07:05:45PM") // output : 19:05:45
