@@ -45,4 +45,36 @@ function anagram(str1, str2) {
     return true;
 }
 
-anagram("", "")
+// Look Back & Refactor
+function anagram(str1, str2) {
+    // check if str1 and str2 has same length, if not return false
+    // define an object lookup
+    // Loop over str1...
+        // Check if lookup has value for str1[i], if yes increase lookup value by 1, else assign the value 1
+    // Loop over str2...
+        // get char as value of str2[i]
+        // now check if lookup doesn't contain it, and return false
+        // lookup[char]--;  
+    // return true
+
+
+    if(str1.length !== str2.length) {
+        return false;
+    }
+
+    let lookup = {};
+
+    for(let value of str1) {
+        lookup[value] = ++lookup[value] || 1;
+    }
+
+    for(let value of str2) {
+        if(lookup[value] < 0) {
+            return false;
+        } else {
+            lookup[value]--;
+        }
+    }
+
+    return true;
+}
