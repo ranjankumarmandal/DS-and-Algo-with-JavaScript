@@ -21,7 +21,7 @@ function solution(array) {
  
         else if (array[i] < thirdmin)
             thirdmin = array[i];
-    }
+    };
 
     result.push(secmin);
     result.push(thirdmin);
