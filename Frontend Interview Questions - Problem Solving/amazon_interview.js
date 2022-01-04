@@ -28,10 +28,10 @@ sum(1)(2)(3)(6)();  // output: 12
 //   };
 // };
 
-// solution 2 - little bit more optized
+// solution 2 - more optized code (recursion has been used)
 let sum = function (a) {
   return function (b) {
-    if (!b) return sum(a + b);
-    return;
+    if (b) return sum(a + b);
+    return a;
   };
 };
