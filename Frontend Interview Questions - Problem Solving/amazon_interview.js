@@ -35,3 +35,5 @@ let sum = function (a) {
     return a;
   };
 };
+
+// solution 3 - JavaScript ES6 + optimized code
