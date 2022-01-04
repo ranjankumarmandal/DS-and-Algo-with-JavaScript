@@ -29,11 +29,12 @@ sum(1)(2)(3)(6)();  // output: 12
 // };
 
 // solution 2 - more optized code (recursion has been used)
-let sum = function (a) {
-  return function (b) {
-    if (b) return sum(a + b);
-    return a;
-  };
-};
+// let sum = function (a) {
+//   return function (b) {
+//     if (b) return sum(a + b);
+//     return a;
+//   };
+// };
 
 // solution 3 - JavaScript ES6 + optimized code
+let sum = (a) => (b) => b ? sum(a + b) : a;
