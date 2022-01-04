@@ -6,3 +6,9 @@
 // 3. Break it down
 // 4. Solve / simplify
 // 5. Look back & refactor
+
+/*
+sum(1)(2)(3)(4)();  // output: 10
+sum(1)(2)(3)(5)();  // output: 11
+sum(1)(2)(3)(6)();  // output: 12
+*/
