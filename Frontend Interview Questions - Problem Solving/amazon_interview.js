@@ -28,4 +28,10 @@ sum(1)(2)(3)(6)();  // output: 12
 //   };
 // };
 
-// solution 2
+// solution 2 - little bit more optized
+let sum = function (a) {
+  return function (b) {
+    if (!b) return sum(a + b);
+    return;
+  };
+};
