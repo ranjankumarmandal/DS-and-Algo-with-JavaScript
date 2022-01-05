@@ -16,6 +16,7 @@ rev('hello there hope all is well') // well is all hope there hello
 function rev(str) {
   // convert string to array
   // replace the first place with last place and so on 
+  // convert the arr to result string
   // return the result string
 }
 */
