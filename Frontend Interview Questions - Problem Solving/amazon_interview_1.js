@@ -21,9 +21,18 @@ function rev(str) {
 */
 
 // solution 1
-function rev(str) {
-  let arr = str.split(' ');
+// function rev(str) {
+//   let arr = str.split(' ');
+//   let result = '';
+//   for (let i = arr.length-1; i >= 0; i--) result += arr[i] + ' ';
+//   return result;
+// }
+
+// solution 2 - ES 6 + optimized code
+let rev = (str) => {
   let result = '';
-  for (let i = arr.length; i >= 0; i--) result += arr[i] + ' ';
+  for (let i = str.split(' ').length - 1; i >= 0; i--)
+    result += str.split(' ')[i] + ' ';
   return result;
-}
+};
+rev('hello world google');
