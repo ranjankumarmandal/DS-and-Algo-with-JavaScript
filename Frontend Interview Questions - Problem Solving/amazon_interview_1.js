@@ -12,8 +12,10 @@ rev('thank you very much') // output: much very you thank
 rev('hello there hope all is well') // well is all hope there hello
 */
 
+/*
 function rev(str) {
   // convert string to array
-  // reverse the whole array
-  // convert the array to string
+  // replace the first place with last place and so on 
+  // return the result string
 }
+*/
