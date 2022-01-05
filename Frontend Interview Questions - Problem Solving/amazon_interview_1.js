@@ -1,4 +1,4 @@
-// Problem - reverse all the words in a given string
+// Problem - reverse words in a given string
 
 // Problem Solving approach -
 // 1. Understand the problem
